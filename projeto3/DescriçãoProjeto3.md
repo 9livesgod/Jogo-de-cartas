@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-**PATRICK ANDERSON CARVALHO DOS SANTOS (211030620)
+##PATRICK ANDERSON CARVALHO DOS SANTOS (211030620)
 Este projeto é um jogo de cartas colecionáveis baseado em classes de orientação a objetos. O jogo consiste em vários componentes, incluindo jogadores, cartas, decks, tabuleiros e jogadas. Cada um desses componentes é representado por uma classe com atributos e métodos específicos.
 
 ## Classes do Projeto
