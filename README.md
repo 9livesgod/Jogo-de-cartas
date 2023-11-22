@@ -2,7 +2,7 @@
 
 ## Autores
 
-##Patrick Anderson Carvalho dos Santos 211030620
+### Patrick Anderson Carvalho dos Santos 211030620
 
 
 Esperamos que este projeto proporcione uma experiência envolvente e educativa, ilustrando a aplicação prática dos conceitos aprendidos em Orientação a Objetos. Aproveite o jogo! 🃏🎉
