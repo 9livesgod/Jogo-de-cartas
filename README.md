@@ -1,45 +1,55 @@
-# Documentação do Projeto de Formas Geométricas
+# Projeto 4 Final - Jogo de Cartas
 
-## Introdução
+## Autores
 
-Este projeto tem como objetivo criar um sistema interativo para lidar com formas geométricas bidimensionais e realizar cálculos simples relacionados a essas formas. As formas geométricas incluídas neste projeto são círculos, retângulos e triângulos.
+[Patrick Anderson Carvalho dos Santos] [211030620]
+[Nome][Matricula]
 
-## Classes e Objetos
+Esperamos que este projeto proporcione uma experiência envolvente e educativa, ilustrando a aplicação prática dos conceitos aprendidos em Orientação a Objetos. Aproveite o jogo! 🃏🎉
 
-O sistema é baseado em classes e objetos para representar as formas geométricas. As principais classes incluem:
+## Descrição
 
-- **Ponto:** Representa um ponto no espaço bidimensional com coordenadas x e y.
+O Projeto 4 da disciplina de Orientação a Objetos é a culminação de nosso aprendizado, apresentando um cativante jogo de cartas implementado em Python. Este projeto serve como uma aplicação prática dos princípios de programação orientada a objetos, demonstrando habilidades como encapsulamento, herança e polimorfismo.
 
-- **FormaGeometrica:** Uma classe base que fornece métodos para calcular a área e o perímetro de formas geométricas. As classes derivadas (Círculo, Retângulo e Triângulo) herdam esses métodos.
+## Funcionalidades Principais
 
-- **Círculo:** Uma classe que representa um círculo, com atributos para raio e centro (um ponto).
+1. **Baralho Dinâmico:** Desenvolvimento de um baralho dinâmico que permite a criação, embaralhamento e distribuição eficiente de cartas.
 
-- **Retângulo:** Uma classe que representa um retângulo, com atributos para largura e altura.
+2. **Jogadores Interativos:** Os jogadores podem interagir com o jogo, realizando ações como comprar cartas, jogar na mesa e executar estratégias para vencer.
 
-- **Triângulo:** Uma classe que representa um triângulo, com atributos para os comprimentos dos três lados.
+3. **Regras Customizáveis:** Flexibilidade para ajustar as regras do jogo, proporcionando uma experiência personalizada para os jogadores.
 
-## Funcionalidades
+4. **Pontuação e Vencedor:** Implementação de um sistema de pontuação para determinar o vencedor do jogo, considerando diversos critérios.
 
-O sistema oferece as seguintes funcionalidades:
+## Estrutura do Código
 
-1. **Criar Círculo:** Permite ao usuário criar um círculo fornecendo o raio e as coordenadas do centro.
+O código-fonte do projeto segue uma organização lógica e modular, refletindo as melhores práticas de programação orientada a objetos. As classes são estruturadas hierarquicamente, facilitando a compreensão do fluxo de execução.
 
-2. **Criar Retângulo:** Permite ao usuário criar um retângulo fornecendo a largura e a altura.
+```plaintext
+|-- src
+|   |-- main
+|       |-- python
+|           |-- jogo_cartas
+|               |-- baralho.py
+|               |-- carta.py
+|               |-- jogador.py
+|               |-- jogo_cartas.py
+|               |-- ...
+|-- README.md
+|-- ...
+```
 
-3. **Criar Triângulo:** Permite ao usuário criar um triângulo fornecendo os comprimentos dos três lados.
+## Como Executar
 
-4. **Listar Formas Geométricas:** Mostra ao usuário uma lista das formas geométricas registradas, incluindo informações sobre cada forma, como área e perímetro.
+1. Certifique-se de ter o Python instalado em sua máquina.
+2. Clone o repositório para o seu ambiente local.
+3. Execute o arquivo `jogo_cartas.py` para iniciar o jogo.
 
-5. **Sair:** Encerra o programa.
+```bash
+python src/main/python/jogo_cartas/jogo_cartas.py
+```
 
-## Diagrama de Classes UML
+## Contribuições
 
-O diagrama de classes UML no pdf illusta.
+Contribuições e sugestões são encorajadas. Sinta-se à vontade para abrir issues e pull requests para aprimorar este projeto.
 
-## Implementação
-
-Este projeto pode ser implementado em uma linguagem de programação de sua escolha com base no pseudocódigo e no diagrama UML fornecidos.
-
-## Conclusão
-
-O sistema de formas geométricas oferece uma maneira interativa de criar e calcular propriedades de formas bidimensionais. Ele é flexível e pode ser expandido para incluir mais funcionalidades e tipos de formas geométricas, conforme necessário.
