@@ -8,11 +8,10 @@
 ### Pedro Henrique Faria  222007086
 ### Rafael Melo Matuda 222006383
 
-Esperamos que este projeto proporcione uma experiência envolvente e educativa, ilustrando a aplicação prática dos conceitos aprendidos em Orientação a Objetos. Aproveite o jogo! 🃏🎉
-
 ## Descrição
 
 O Projeto 4 da disciplina de Orientação a Objetos é a culminação de nosso aprendizado, apresentando um cativante jogo de cartas implementado em Python. Este projeto serve como uma aplicação prática dos princípios de programação orientada a objetos, demonstrando habilidades como encapsulamento, herança e polimorfismo.
+Esperamos que este projeto proporcione uma experiência envolvente e educativa, ilustrando a aplicação prática dos conceitos aprendidos em Orientação a Objetos. Aproveite o jogo! 🃏🎉
 
 ## Funcionalidades Principais
 
