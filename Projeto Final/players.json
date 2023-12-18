@@ -1,6 +1,14 @@
 [
     {
         "_Player__nome": "Pedro",
-        "_Player__pontuacao": 0
+        "_Player__pontuacao": 100
+    },
+    {
+        "_Player__nome": "Rafael",
+        "_Player__pontuacao": 80
+    },
+    {
+        "_Player__nome": "Davi",
+        "_Player__pontuacao": 100
     }
 ]

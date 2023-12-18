@@ -3,28 +3,28 @@ from carta import *
 
 
 class Deck:
-    NAIPE_TUPLE = ('Ouros', 'Paus', 'Copas', 'Espadas')
-    NUMERO_VALORES_DICT = {'Ás': 1, '2': 2, '3': 3, '4': 4, '5': 5,
+    SUIT_TUPLE = ('Ouros', 'Paus', 'Copas', 'Espadas')
+    RANK_VALUE_DICT = {'Ás': 1, '2': 2, '3': 3, '4': 4, '5': 5,
                        '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,
                        'Valete': 11, 'Rainha': 12, 'Rei': 13}
 
     def __init__(self, window):
-        self.deck_inicial = []
-        self.deck_atual = []
-        for naipe in self.NAIPE_TUPLE:
-            for numero, value in self.NUMERO_VALORES_DICT.items():
-                carta = Carta(window, numero, naipe, value)
-                self.deck_inicial.append(carta)
-        self.embaralhar()
+        self.starting_deck = []
+        self.playing_deck = []
+        for suit in self.SUIT_TUPLE:
+            for rank, value in self.RANK_VALUE_DICT.items():
+                card = Card(window, rank, suit, value)
+                self.starting_deck.append(card)
+        self.shuffle()
 
-    def embaralhar(self):
-        self.deck_atual = self.deck_inicial.copy()
-        for carta in self.deck_atual:
-            carta.conceal()
-        random.shuffle(self.deck_atual)
+    def shuffle(self):
+        self.playing_deck = self.starting_deck.copy()
+        for card in self.playing_deck:
+            card.conceal()
+        random.shuffle(self.playing_deck)
 
-    def get_carta(self):
-        return self.deck_atual.pop()
+    def get_card(self):
+        return self.playing_deck.pop()
 
-    def add_carta(self, card):
-        self.deck_atual.insert(0, card)
+    def add_card(self, card):
+        self.playing_deck.insert(0, card)

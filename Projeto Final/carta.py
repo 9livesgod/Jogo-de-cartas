@@ -2,16 +2,16 @@ import pygame
 import pygwidgets
 
 
-class Carta:
+class Card:
     BACK_IMAGE = pygame.image.load('assets/images/BackOfCard.png')
 
-    def __init__(self, window, numero, naipe, value):
+    def __init__(self, window, rank, suit, value):
         self.window = window
-        self.numero = numero
-        self.naipe = naipe
-        self.nome_carta = f'{numero} de {naipe}'
+        self.rank = rank
+        self.suit = suit
+        self.card_name = f'{rank} de {suit}'
         self.value = value
-        front_image_path = f'assets/images/{self.nome_carta}.png'
+        front_image_path = f'assets/images/{self.card_name}.png'
         self.images = pygwidgets.ImageCollection(window, (0, 0),
                                                  {'front': front_image_path, 'back': self.BACK_IMAGE}, 'back')
 
@@ -22,16 +22,16 @@ class Carta:
         self.images.replace('front')
 
     def get_name(self):
-        return self.nome_carta
+        return self.card_name
 
     def get_value(self):
         return self.value
 
     def get_suit(self):
-        return self.naipe
+        return self.suit
 
     def get_rank(self):
-        return self.numero
+        return self.rank
 
     def set_loc(self, loc):
         self.images.setLoc(loc)
