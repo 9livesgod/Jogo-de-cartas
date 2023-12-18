@@ -2,7 +2,10 @@
 
 ## Autores
 
+### Link da Apresentação Final: <link>https://youtu.be/WKIGFF7K9_A<link/>
 ### Patrick Anderson Carvalho dos Santos 211030620
+### Pedro Henrique Faria  222007086
+### Rafael Melo Matuda 222006383
 
 
 Esperamos que este projeto proporcione uma experiência envolvente e educativa, ilustrando a aplicação prática dos conceitos aprendidos em Orientação a Objetos. Aproveite o jogo! 🃏🎉
