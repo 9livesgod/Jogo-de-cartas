@@ -28,15 +28,17 @@ Esperamos que este projeto proporcione uma experiência envolvente e educativa, 
 O código-fonte do projeto segue uma organização lógica e modular, refletindo as melhores práticas de programação orientada a objetos. As classes são estruturadas hierarquicamente, facilitando a compreensão do fluxo de execução.
 
 ```plaintext
-|-- src
-|   |-- main
-|       |-- python
-|           |-- jogo_cartas
-|               |-- baralho.py
-|               |-- carta.py
-|               |-- jogador.py
-|               |-- jogo_cartas.py
-|               |-- ...
+|-- Projeto Final
+|   |-- assets
+|   |-- .idea
+|   |-- deck.py
+|   |-- game.py
+|   |-- leaderboard.py
+|   |-- main.py
+|   |-- player.py
+|   |-- start.py
+|   |-- tempCodeRunnerFile.py
+|  
 |-- README.md
 |-- ...
 ```
@@ -48,7 +50,7 @@ O código-fonte do projeto segue uma organização lógica e modular, refletindo
 3. Execute o arquivo `jogo_cartas.py` para iniciar o jogo.
 
 ```bash
-python src/main/python/jogo_cartas/jogo_cartas.py
+python Projeto Final/main.py
 ```
 
 ## Contribuições
